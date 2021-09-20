@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    
+    
+}
+.banner{
+  
+    height: 837px;
+    position: relative;
+}
+.Slider{
+    width: 93%;
+    float:left;
+    
+}
+.carousel-item{
+    width: 80%;
+    position: relative;
+   
+   
+}
+.carousel-inner .carousel-item {
+  transition: o.1s;
+}
+.carousel-item img{
+    width: 100%;
+     
+    background-size: cover;
+    bottom: auto;
+  
+}
+
+ .carousel-caption{
+     max-height: 350px !important;
+     max-width: 500px !important;
+     text-align: center !important;
+     top: 160px !important;
+     right: 40px !important;
+     left: auto !important;
+ }
+ .carousel-caption h1{
+     font-size: 80px;
+ }
+ .carousel-caption h5{
+     font-size: 40px;
+     padding: 8px 5px;
+ }
+ .carousel-caption p{
+     font-size: 15px;
+   
+}
+.side-menu{
+   height: 100%;
+   width: 7%;
+   float: right;
+    background: linear-gradient(to right, #e52d27, #b31217);
+   position: relative;
+   z-index: 2;
+   
+}
+
+.search-icon{
+  
+    width: 30px;
+   cursor: pointer;
+    margin: 30px;
+   
+}
+.menu-icon{
+  
+    width: 40px;
+   cursor: pointer;
+   margin: 30px;
+   
+}
+.side-menu::after
+{
+    content: '';
+    width: 1px;
+    height: 130px;
+    background: white;
+    left: 45px;
+    top: 200px;
+    position: absolute;
+}
+/*
+
+<h1>MUSCULAR</h1>
+<h5>WORKOUT</h5>
+<p>Getting to the gym and prioritizing your fitness isn’t easy—we know!<br> But staying on track and working toward your health goals is essential..</p>
+
+}
+*/
+
+.carousel-indicators{
+   left: 0% !important;
+    height: 20% !important;
+    top: 30% !important;
+    width: 95px !important;
+    display: block !important;
+    right: 5% !important;
+    margin-left: 39px !important;
+   
+}
+.carousel-indicators li{
+    width: 10px !important;
+    height: 10px !important ;
+    border-radius: 50% !important;
+    border: 2px solid #fff !important;
+    margin-left: 15px !important;
+    margin-top: 20px !important ;
+    background: transparent !important;
+    
+}
+.share{
+  color: #fff;
+    margin-top: 204px;
+    justify-content: space-between;
+    padding: 12px 11px;
+}
+.share .fas{
+    color: #000;
+  font-size: 16px;
+    width: 20px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+.navbar{
+    left: -85%;
+    position: absolute;
+   
+    z-index: 2;
+}
+.navbar ul{
+   
+    
+    display: inline-flex;
+}
+.navbar ul li{
+    list-style: none;
+   margin: 21px 29px;
+    padding-left: 20px;
+}
+.navbar ul li a{
+    color: #fff;
+   display: block;
+   padding-top: 5px;
+}
+.navbar img{
+    height: 30px;
+    cursor: pointer;
+    width: 40px;
+}
+.social-links{
+    z-index: 2;
+    position:absolute;
+    top: 70%;
+    right:30px;
+    transform:translateY(-50%);
+    
+}
+.social-links ul li{
+    list-style: none;
+    padding: 8px 5px;
+}
+.social-links ul li .fab{
+    color: #000;
+}
